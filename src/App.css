@@ -1,0 +1,25 @@
+.table-cell {
+  padding: 10px !important;
+  background-color: transparent !important;
+}
+.google-visualization-table {
+  margin-top: 20px;
+  overflow: scroll !important;
+}
+
+.google-visualization-table-table,
+.google-visualization-table-table td:last-of-type,
+.google-visualization-table-table th:last-of-type {
+  background-color: transparent !important;
+  border-right: none !important;
+}
+
+@media screen and (max-width: 600px) {
+  .google-visualization-table {
+    width: 280px !important;
+  }
+}
+
+[id^="google-visualization-errors"] {
+  display: none !important;
+}
